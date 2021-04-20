@@ -28,6 +28,6 @@ jobs:
       with:
         image: chha25/personal
         registry: docker.io
-        tag: kotlin-playground
+        tags: kotlin-playground
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
