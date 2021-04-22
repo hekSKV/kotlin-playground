@@ -8,8 +8,13 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 @RequestMapping("/hellos")
 class HelloController {
-    @GetMapping()
+    @GetMapping
     fun getHelloWorlds(): List<String> {
         return listOf("hello 1", "hello 2")
+    }
+
+    @GetMapping
+    fun getHelloWorld(id: String): String {
+        return "hello$id"
     }
 }
