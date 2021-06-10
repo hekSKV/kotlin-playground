@@ -1,0 +1,15 @@
+[
+        {
+                "id": "redeploy",
+                "execute-command": "/home/ubuntu/webhook/redeploy.sh",
+                "command-working-directory": "/home/ubuntu/webhook",
+                "response-message": "Redeploying",
+                "response-headers":
+                [
+                        {
+                                "name": "Access-Control-Allow-Origin",
+                                "value": "*"
+                        }
+                ]
+        }
+]
