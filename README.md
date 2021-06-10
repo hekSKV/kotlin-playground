@@ -1,6 +1,12 @@
 # kotlin-playground
 
-hiermit können wir weiter machen https://levelup.gitconnected.com/automated-deployment-using-docker-github-actions-and-webhooks-54018fc12e32
+## Doing fürs nächste Mal
+- Zertifikat für Domain
+- Webhook absichern mit Secret --> Anpassung Action
+- Webhook als Deamon starten
+
+
+Diese Anleitung haben wir durch gemacht: https://levelup.gitconnected.com/automated-deployment-using-docker-github-actions-and-webhooks-54018fc12e32
 
 ## Server-Einrichtung
 - Ingress-Freigaben für Server eingerichtet (8080, 9000)
