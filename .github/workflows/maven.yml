@@ -32,8 +32,9 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
     - name: Webhook Action
-      uses: joelwmale/webhook-action@master
+      uses: joelwmale/webhook-action@fd99bb3b8272237103e349e9bb4d9b0ead9a217c
       with:
         # The url to send the webhook event to
         url: 
           ${{secrets.DEPLOY_WEBHOOK_URL}}
+        insecure: true
