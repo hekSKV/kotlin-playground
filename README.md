@@ -38,7 +38,7 @@ ExecStart=webhook -secure -hooks /home/ubuntu/webhook/hooks.json -cert /home/ubu
 [Install]
 WantedBy=multi-user.target
 ```
-Daemon neustarten:
+- Daemon neustarten:
 ```
 sudo systemctl daemon-reload
 sudo systemctl enable webhook.serivce 
