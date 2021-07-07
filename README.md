@@ -1,10 +1,6 @@
 # kotlin-playground
 
 ## Doing fürs nächste Mal
-- Webhook absichern mit Secret --> Anpassung Action
-- Webhook als Deamon starten
-
-
 Diese Anleitung haben wir durch gemacht: https://levelup.gitconnected.com/automated-deployment-using-docker-github-actions-and-webhooks-54018fc12e32
 GitH
 ## Server-Einrichtung
