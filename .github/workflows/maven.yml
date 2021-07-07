@@ -35,6 +35,6 @@ jobs:
       uses: joelwmale/webhook-action@fd99bb3b8272237103e349e9bb4d9b0ead9a217c
       with:
         # The url to send the webhook event to
-        url: 
-          ${{secrets.DEPLOY_WEBHOOK_URL}}
+        url: ${{secrets.DEPLOY_WEBHOOK_URL}}
+        headers: '{"deploy-token": "${{secrets.DEPLOY_WEBHOOK_TOKEN}}"}'
         insecure: true
