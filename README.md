@@ -22,6 +22,6 @@ sudo netfilter-persistent save
 
 ## Bedienung
 - mit redeploy.sh wird Container gestartet
-- Webhook starten mit ``webhook -secure -hooks /my/path/to/hooks/hooks.json -cert /pathtocert -key pathtokey -verbose``
+- Webhook starten mit `` sudo webhook -secure -hooks /home/ubuntu/webhook/hooks.json -cert /home/ubuntu/webhook/server.crt -key /home/ubuntu/webhook/server.key -verbose``
 - Aufruf Anwendung: ``152.70.175.84:8080/hellos``
 - Redeploy: ``152.70.175.84:9000/hooks/redeploy``
