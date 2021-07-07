@@ -10,6 +10,20 @@
                                 "name": "Access-Control-Allow-Origin",
                                 "value": "*"
                         }
-                ]
+                ],
+                "trigger-rule":
+                {
+                        "match":
+                        {
+                                "type": "value",
+                                "value": "<SECRET>",
+                                "parameter":
+                                {
+                                        "source": "header",
+                                        "name": "deploy-token"
+                                 }
+                         }
+                 }
+
         }
 ]
