@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController
 class HelloController {
     @GetMapping
     fun getHelloWorlds(): List<String> {
-        return listOf("hello 1", "hello 2")
+        return listOf("hello 1", "hello 2", "welcome Lucas")
     }
 
     @GetMapping("{id}")
